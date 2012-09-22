@@ -23,6 +23,7 @@ A = map(lambda x:set(x), [a, b, c])
 print A
 B = reduce(lambda list1, list2: list1|list2, A)
 print B
+# B == set([1, 2, 3, 4, 5, 6, 7, 8, 9])
 
 #------------------------------
 # an example from the documentation - http://docs.python.org/library/sets.html
