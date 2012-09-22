@@ -1,6 +1,5 @@
 # Excellent article! 
 # http://mikecvet.wordpress.com/2010/07/02/parallel-mapreduce-in-python/
-# http://docs.python.org/library/multiprocessing.html - please read the notes
 #
 a = [1, 2, 3]
 b = [4, 5, 6, 7]
