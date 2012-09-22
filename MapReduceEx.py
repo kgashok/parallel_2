@@ -16,7 +16,7 @@ print "Total count:", N
 # Some more experiments
 # with using sets 
 a = [1, 2, 3, 4, 4, 4, 5]
-b = [4, 5, 6, 7, 8, 4]
+b = [4, 5, 6, 7, 8, 4, 3]
 c = [8, 9, 1, 2, 3, 3]
 
 A = map(lambda x:set(x), [a, b, c])
@@ -24,6 +24,10 @@ print A
 B = reduce(lambda list1, list2: list1|list2, A)
 print B
 # B == set([1, 2, 3, 4, 5, 6, 7, 8, 9])
+
+C = reduce(lambda list1, list2: list1 & list2, A)
+print C
+# C == set([3])
 
 #------------------------------
 # an example from the documentation - http://docs.python.org/library/sets.html
