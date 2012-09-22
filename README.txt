@@ -24,3 +24,7 @@ For multiple files,
 Output Capture. PNG
 
 Shows the terms that were extracted by processing the Pride.txt file
+
+---
+ 23 Sep 2012, 1:45 AM 
+* 
