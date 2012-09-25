@@ -19,8 +19,6 @@ print "Total count:", N
 #
 # Added comments on HP-PC
 # 
-# Added comments on VAIO
-#
 a = [1, 2, 3, 4, 4, 4, 5]
 b = [4, 5, 6, 7, 8, 4, 3]
 c = [8, 9, 1, 2, 3, 3]
