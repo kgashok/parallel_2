@@ -15,6 +15,7 @@ print "Total count:", N
 #-------------------------------------------
 # Some more experiments
 # with using sets 
+# Sept 23 2012
 a = [1, 2, 3, 4, 4, 4, 5]
 b = [4, 5, 6, 7, 8, 4, 3]
 c = [8, 9, 1, 2, 3, 3]
