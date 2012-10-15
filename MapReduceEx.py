@@ -4,12 +4,23 @@
 a = [1, 2, 3]
 b = [4, 5, 6, 7]
 c = [8, 9, 1, 2, 3]
-L = map(lambda x:len(x), [a, b, c])
+
+def list_length(l):
+    return len(l)
+
+def add_two(a,b):
+    return a+b
+
+#L = map(lambda x:len(x), [a, b, c])
+L = map(list_length, [a, b, c])
 # L == [3, 4, 5]
-N = reduce(lambda x, y: x+y, L)
+#N = reduce(lambda x, y: x+y, L)
+N = reduce(add_two, L)
 # N == 12
 # Or, if we want to be fancy and do it in one line
-N = reduce(lambda x, y: x+y, map(lambda x:len(x), [a, b, c]))
+#N = reduce(lambda x, y: x+y, map(lambda x:len(x), [a, b, c]))
+N = reduce(add_two, map(list_length, [a,b,c]))
+
 print "Total count:", N
 
 #-------------------------------------------
